@@ -1,0 +1,11 @@
+class MYexceptio(Exception):
+    pass
+def xyz(a,b):
+    sum=a+b
+    if sum<150:
+        raise MYexception("Customer EXception occured")
+    else:
+        return sum
+a=int(input())
+b=int(input())
+print(xyz(a,b))
